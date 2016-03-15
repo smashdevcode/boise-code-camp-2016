@@ -3,7 +3,7 @@
 
 ## Sessions
 
-### Introduction to TypeScript
+### [Introduction to TypeScript](https://github.com/smashdevcode/boise-code-camp-2016/tree/master/introduction-to-typescript)
 
 Increasingly, developers are relying upon JavaScript to build rich, dynamic web applications. It's not uncommon for 50% (or more) of the application's code to be written in JavaScript. As the use of JavaScript has increased and the applications have become larger and larger, so to have the challenges of developing and maintaining these applications.
 
@@ -13,13 +13,13 @@ In this session, we'll start with a brief history of TypeScript followed by a se
 
 This session is for developers who are interested in learning about TypeScript.
 
-### Using TypeScript Decorators with Angular
+### [Using TypeScript Decorators with Angular](https://github.com/smashdevcode/boise-code-camp-2016/tree/master/using-typescript-decorators-with-angular)
 
 TypeScript decorators, based on the ES2016 decorator proposal and introduced as part of TypeScript 1.5, provide developers with a way to modify a JavaScript class, property, method, or method parameter using a convenient declarative syntax. We'll start this session by creating our own decorator, to see firsthand how they work. Then, we'll take a look at how decorators are used when creating Angular 2 components. Lastly, we'll see how to use decorators with AngularJS 1 controllers to make them look more syntactically similar to Angular 2 components.
 
 This session is for developers who are using (or interested in using) TypeScript with AngularJS 1 or Angular 2.
 
-### Developing ASP.NET Core 1.0 Applications
+### [Developing ASP.NET Core 1.0 Applications](https://github.com/smashdevcode/boise-code-camp-2016/tree/master/developing-aspnet-core-applications)
 
 ASP.NET Core 1.0 (previously known as ASP.NET 5) is a new open-source (github.com/aspnet/home) and cross-platform framework for building modern cloud-based Web applications using .NET. It is being built from the ground up to provide an optimized development framework for apps that are either deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core applications cross-platform on Windows, Mac, and Linux.
 
