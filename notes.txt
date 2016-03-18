@@ -1,0 +1,32 @@
+
+
+
+
+TypeScript Presentation
+  Review latest updates
+  Practice demos
+
+
+Decorators Presentation
+  Tighten up presentation
+  Practice demos
+
+
+ASP.NET Core Presentation
+
+  Update Baseline image
+  	Install Docker???
+  		Is this something that I want to show???
+  		Probably don't have time to do this (before or during talk)
+
+  Prepare DryRun image so that everything is downloaded and ready to go
+    Just in case I don't have an internet connection again
+
+  Getting debugging working in VS Code
+  	Would be good to show this
+
+  How to run nightly builds
+  	http://intellitect.com/using-nightly-builds-for-asp-net-core-1-0/
+
+  RC1 to RC2 comparison
+  	http://stackoverflow.com/questions/35527151/can-i-build-asp-net-core-web-application-using-microsoft-dotnet-cli
