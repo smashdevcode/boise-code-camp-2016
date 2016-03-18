@@ -6,12 +6,12 @@
 // 1) Show that the JavaScript basically remains unchanged
 // 2) Show that the compiler is already providing some benefit
 
-function add(number1, number2) {
-    return number1 + number2;
-}
-
-var addResult = add(1, 2);
-console.log(addResult);
+// function add(number1, number2) {
+//     return number1 + number2;
+// }
+//
+// var addResult = add(1, 2);
+// console.log(addResult);
 
 
 // TypeScript "any" type allows JavaScript dynamic typing to continue to work
@@ -51,6 +51,8 @@ console.log(addResult);
 
 // Type Definition Files
 // 1) Show how to use d.ts files to make TS aware of libraries
+// 2) `typings search lodash`
+// 3) `typings install lodash --save`
 
 // var maxNumber = _.max([1, 2, 3]);
 // console.log(maxNumber);

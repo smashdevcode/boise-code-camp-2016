@@ -1,0 +1,27 @@
+{
+    "version": "1.7.5",
+    "compilerOptions": {
+        "target": "es5",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "sourceMap": true,
+        "module": "system",
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*",
+        "!./typings/main.d.ts",
+        "!./typings/main/**/*.d.ts"
+    ],
+    "files": [
+        "./main.ts",
+        "./typings/browser.d.ts",
+        "./typings/browser/ambient/lodash/index.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
