@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Developing ASP.NET Core Applications</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>_apicontroller</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-03-03T22:24:09Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2016-03-03T22:24:18Z</date>
+			<key>plainText</key>
+			<string>using System.Collections.Generic;
+using Microsoft.AspNet.Mvc;
+
+namespace WebApplicationBasic.Controllers
+{
+    public class Hero
+    {
+        public string Name { get; set; }
+    }
+    
+    [Route("api/[controller]")]
+    public class HeroesController : Controller
+    {
+        [HttpGet]
+        public IEnumerable&lt;Hero&gt; GetAll()
+        {
+            return new List&lt;Hero&gt;()
+            {
+                new Hero() { Name = "Iron Man" },   
+                new Hero() { Name = "Hulk" },   
+                new Hero() { Name = "Captain America" }
+            };
+        }   
+    }
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>15F40FD6-A0B4-4BA2-A1AD-0DFD00BB020E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>_heroclass</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-03-03T23:03:44Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2016-03-03T23:04:02Z</date>
+			<key>plainText</key>
+			<string>using System.ComponentModel.DataAnnotations;
+
+namespace WebApplicationBasic.Models
+{
+    public class Hero
+    {
+        [Display(Name = "Name")]
+        [Required]
+        public string Name { get; set; }
+    }    
+}
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>26D17141-B458-4DB7-BAC2-F6DE35CBE886</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>_oldview</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-03-03T23:05:21Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2016-03-03T23:05:28Z</date>
+			<key>plainText</key>
+			<string>@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+&lt;div class="form-group"&gt;
+    @Html.LabelFor(m =&gt; m.Name, new { @class = "col-md-2 control-label" })
+    &lt;div class="col-md-10"&gt;
+        @Html.TextBoxFor(m =&gt; m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m =&gt; m.Name, "", new { @class = "text-danger" })
+    &lt;/div&gt;
+&lt;/div&gt;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D3A21FF2-0B1E-40C2-AD66-A8AF9717EC32</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>_newview</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-03-03T23:05:42Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2016-03-03T23:05:48Z</date>
+			<key>plainText</key>
+			<string>&lt;div asp-validation-summary="ValidationSummary.All" class="text-danger"&gt;&lt;/div&gt;
+&lt;div class="form-group"&gt;
+    &lt;label asp-for="Name" class="col-md-2 control-label"&gt;&lt;/label&gt;
+    &lt;div class="col-md-10"&gt;
+        &lt;input asp-for="Name" class="form-control" /&gt;
+        &lt;span asp-validation-for="Name" class="text-danger"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CF2A9D7D-C757-44DE-AF0C-86EEEF901934</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>_globaljson</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-03-03T23:10:19Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2016-03-03T23:10:48Z</date>
+			<key>plainText</key>
+			<string>{
+	"projects": [
+		"source"
+	],
+	"sdk": {
+		"version": "1.0.0-rc1-update1"
+	}
+}
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>FF421E2A-C69E-4ED4-9400-30F6F77A4F10</string>
+		</dict>
+	</array>
+</dict>
+</plist>

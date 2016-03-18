@@ -1,0 +1,89 @@
+
+TODO
+
+
+
+
+
+
+Run through presentation and demos
+  Practice DNVM commands
+  Review location of runtime and packages
+  Test deploying to Azure
+
+
+
+
+Update TODO document
+
+
+
+
+
+Review cut demos...
+  Anything in there that would be worth showing???
+
+Read through DNX documentation
+  https://docs.asp.net/en/latest/dnx/overview.html
+  Application Host
+    The DNX application host is typically the first managed entry point invoked by DNX
+    and is responsible for handling dependency resolution, parsing project.json,
+    providing additional services and invoking the application entry point.
+    The DNX application host provides a set of services to applications through
+    dependency injection (for example, IServiceProvider, IApplicationEnvironment and ILoggerFactory).
+
+
+
+
+
+
+Read transcripts to the new ASP.NET community standups
+
+Experiment with Docker
+  Docker IP 192.168.99.100
+
+Research and write up information on why a static void main method is necessary now
+  Running a command, `dnx [anything]`, dnx looks in the project.json file's commands section for the 'anything' command
+  See http://dotnetliberty.com/index.php/2015/12/24/asp-net-5-entry-point-overview/
+
+How does the dotnet CLI fit into this???
+  These bits are completely separate from the ASP.NET 5 and .NET Core bits (for now)
+  You can natively compile .NET apps (completely standalone .exes)
+  Walk through the installation and example on: http://dotnet.github.io/
+  Sample apps https://github.com/dotnet/core/tree/master/samples
+
+What is this new project.json bit???
+    "compilationOptions": {
+      "emitEntryPoint": true
+    },
+    http://stackoverflow.com/questions/33888632/what-does-compilationoptions-emitentrypoint-mean
+    Executable apps need to include an entry point
+    Libraries do not
+
+Introduction to Tag Helpers
+  https://docs.asp.net/projects/mvc/en/latest/views/tag-helpers/intro.html
+
+Create an ASP.NET 5 web app in Visual Studio Code
+  https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-app-using-vscode/
+
+Overview of .NET Ecosystem in 2015
+  http://dotnet.github.io/about/overview.html
+
+.NET Core Website
+  http://dotnet.github.io/
+
+gulp-dnx
+  https://www.npmjs.com/package/gulp-dnx
+
+This looks like a great walkthrough of setting up ASP.NET 5 RC1 apps
+  http://www.strathweb.com/2015/12/running-asp-net-5-website-on-iis/
+
+dnx-watch
+  http://www.hanselman.com/blog/IntegratingVisualStudioCodeWithDnxwatchToDevelopASPNET5Applications.aspx
+  `dnu commands install Microsoft.Dnx.Watcher`
+
+Setting Up Tasks in VS Code
+  tasks.json
+
+gulp-shell
+  Adds shell support to gulp
