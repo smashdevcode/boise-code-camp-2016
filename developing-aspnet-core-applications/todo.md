@@ -3,7 +3,7 @@
 
 1. Run `brew update` (to ensure that the majority of the formulae are updated)
 1. Update VS Code
-1. Update Yeoman templates `npm update generator-aspnet`
+1. Update Yeoman templates `npm install -g generator-aspnet`
 1. Remove the old GitHub repo
 1. Clone the new GitHub repo
 1. Import the new code snippets
