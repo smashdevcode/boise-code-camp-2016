@@ -9,6 +9,8 @@ TypeScript Presentation
   Presentation (update slides)
     Start by showing main language features
     Show slides
+
+
     Show features as time permits
       tsconfig.json
       Union Types & Type Guards
@@ -20,6 +22,54 @@ TypeScript Presentation
       Decorators
       ES6 Modules
       async/await
+
+
+      Language Updates
+
+      1.7
+
+      async/await support in ES6 targets (Node v4+)
+      Support for --target ES6 with --module
+      this-typing
+      ES7 exponentiation operator
+      Improved checking for destructuring object literal
+      Support for decorators when targeting ES3
+
+      1.6
+
+      JSX support
+      Intersection types
+      Local type declarations
+      Class expressions
+      Extending expressions
+      abstract classes and methods
+      Generic type aliases
+      Stricter object literal assignment checks
+      ES6 generators
+      Experimental support for async functions
+      Adjustments in module resolution logic
+      Merging ambient class and interface declaration
+      User-defined type guard functions
+      exclude property support in tsconfig.json
+
+      1.5
+
+      ES6 Modules
+      Destructuring in declarations and assignments
+      namespace keyword
+      let and const support
+      for..of support
+      Decorators
+      Computed properties
+      Support for UMD and System module output
+      Unicode codepoint escapes in strings
+      Tagged template strings in ES3/ES5
+      AMD-dependency optional names
+      Project support through tsconfig.json
+
+
+
+  Update modules demo
 
   Show typings???
     Could use this to add lodash d.ts during my initial demo
@@ -38,6 +88,11 @@ TypeScript Presentation
 
   Practice demos
     Determine what features to show
+
+
+
+
+
 
 
 Decorators Presentation

@@ -6,16 +6,12 @@
 // 1) Show that the JavaScript basically remains unchanged
 // 2) Show that the compiler is already providing some benefit
 
-// /**
-// * This is my method.
-// **/
-// function veryCoolAdd(number1, number2) {
-//     if (number1 > number2) {
-//         return number1 + number2;
-//     } else {
-//         return "Hey!";
-//     }
+// function add(number1, number2) {
+//     return number1 + number2;
 // }
+//
+// var addResult = add(1, 2);
+// console.log(addResult);
 
 
 // TypeScript "any" type allows JavaScript dynamic typing to continue to work
@@ -56,8 +52,8 @@
 // Type Definition Files
 // 1) Show how to use d.ts files to make TS aware of libraries
 
-var maxNumber = _.max([1, 2, 3]);
-console.log(maxNumber);
+// var maxNumber = _.max([1, 2, 3]);
+// console.log(maxNumber);
 
 
 // Interfaces
@@ -68,51 +64,10 @@ console.log(maxNumber);
 // interface MyInterface {
 //     number1: number;
 //     number2: number;
-//     other?: string;
 //     add(number1: number, number2: number): number;
 // }
 //
-// interface NewInterface {
-//     other2: string
-// }
-//
-// class MyClass implements MyInterface, NewInterface {
-//     number1: number;
-//     number2: number;
-//     other: string;
-//     other2: string;
-//
-//     add(number1: number, number2: number) {
-//         return number1 + number2;
-//     }
-//
-//     subtract() {
-//
-//     }
-// }
-
-// interface NewInterface extends MyInterface {
-//     other: number
-// }
-
-// function newFunction(obj: NewInterface) {
-//
-// }
-//
-// newFunction({
-//     number1: 1,
-//     number2: 2,
-//     other: 'asdf',
-//     add: (number1, number2) => {
-//         return number1 + number2;
-//     }
-// })
-
-// function myFunction(obj: {
-//     number1: number,
-//     number2: number,
-//     add(number1: number, number2: number): number
-// }) {
+// function myFunction(obj: MyInterface) {
 //     return obj.add(obj.number1, obj.number2);
 // }
 //
@@ -146,13 +101,7 @@ console.log(maxNumber);
 //         return this.number1 + this.number2;
 //     }
 //
-//     protected hidden() {
-//     }
-// }
-//
-// class NewClass extends MyClass {
-//     constructor() {
-//         super(2, 2);
+//     private hidden() {
 //     }
 // }
 //

@@ -21,9 +21,11 @@
 
 ### 9) tsconfig.json
 
-### 10) ES6 Features
+### 10) ES6/ES7 Features
 
 * Template strings
 * let & const
 * for..of
 * Destructuring
+* ES6 Modules
+* async/await
