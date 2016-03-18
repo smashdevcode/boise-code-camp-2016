@@ -1,15 +1,32 @@
 
 
+Update TODO notes
+  Make sure that Atom extensions are updated
+
 
 
 TypeScript Presentation
+
   Review latest updates
+    Update roadmap slide (some cool features are coming this year)
+
   Practice demos
+    Determine what features to show
+
+  Update slide deck
 
 
 Decorators Presentation
+
   Tighten up presentation
+    Maybe skip walking through the generated code
+    This felt like it slowed the presentation down too much and was a distraction because of it
+
   Practice demos
+    Write up notes for simple Angular 2 demo
+      Write the code out in real time???
+      Or as close as possible as real time???
+      Have code snippets on hand and the completed app for backup
 
 
 ASP.NET Core Presentation
@@ -22,8 +39,15 @@ ASP.NET Core Presentation
   Prepare DryRun image so that everything is downloaded and ready to go
     Just in case I don't have an internet connection again
 
+  dotnet CLI ASP.NET samples
+    https://github.com/caslan/cli-samples
+    Review and see if they work???
+    Would this be interesting to show???
+
   Getting debugging working in VS Code
+    https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/10/experimental-net-core-debugging-in-vs-code/
   	Would be good to show this
+    Ha! Doesn't work with dnx... just with the new CLI stuff
 
   How to run nightly builds
   	http://intellitect.com/using-nightly-builds-for-asp-net-core-1-0/
