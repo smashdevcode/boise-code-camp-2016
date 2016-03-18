@@ -1,15 +1,6 @@
 
 
-Update TODO notes
-  Make sure that Atom extensions are updated
-
-
 TypeScript Presentation
-
-  Presentation (update slides)
-    Start by showing main language features
-    Show slides
-
 
     Show features as time permits
       tsconfig.json
