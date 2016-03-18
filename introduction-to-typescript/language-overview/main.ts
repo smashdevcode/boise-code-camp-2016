@@ -6,12 +6,12 @@
 // 1) Show that the JavaScript basically remains unchanged
 // 2) Show that the compiler is already providing some benefit
 
-// function add(number1, number2) {
-//     return number1 + number2;
-// }
-//
-// var addResult = add(1, 2);
-// console.log(addResult);
+function add(number1, number2) {
+    return number1 + number2;
+}
+
+var addResult = add(1, 2);
+console.log(addResult);
 
 
 // TypeScript "any" type allows JavaScript dynamic typing to continue to work
