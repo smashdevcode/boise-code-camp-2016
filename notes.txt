@@ -4,23 +4,52 @@ Update TODO notes
   Make sure that Atom extensions are updated
 
 
-
 TypeScript Presentation
+
+  Presentation (update slides)
+    Start by showing main language features
+    Show slides
+    Show features as time permits
+      tsconfig.json
+      Union Types & Type Guards
+      Template Strings
+      let & const
+      for..of
+      Destructuring
+      Computed Properties
+      Decorators
+      ES6 Modules
+      async/await
+
+  Show typings???
+    Could use this to add lodash d.ts during my initial demo
 
   Review latest updates
     Update roadmap slide (some cool features are coming this year)
 
+    2.0
+      Readonly properties
+      `abstract` properties
+      `async`/`await` and generators support for ES5/ES3
+      Glob support in `tsconfig.json`
+
+    2.1
+      ???
+
   Practice demos
     Determine what features to show
-
-  Update slide deck
 
 
 Decorators Presentation
 
   Tighten up presentation
+    Given general overview
+    Then show what decorators look like
+      Use decorator library???
+    Then build out a simple `log` or `readonly` decorator
     Maybe skip walking through the generated code
-    This felt like it slowed the presentation down too much and was a distraction because of it
+      This felt like it slowed the presentation down too much and was a distraction because of it
+    Finish up by showing simple Angular 2 app
 
   Practice demos
     Write up notes for simple Angular 2 demo
@@ -31,6 +60,11 @@ Decorators Presentation
 
 ASP.NET Core Presentation
 
+  dotnet CLI ASP.NET samples
+    https://github.com/caslan/cli-samples
+    Review and see if they work???
+    Would this be interesting to show???
+
   Update Baseline image
   	Install Docker???
   		Is this something that I want to show???
@@ -38,11 +72,6 @@ ASP.NET Core Presentation
 
   Prepare DryRun image so that everything is downloaded and ready to go
     Just in case I don't have an internet connection again
-
-  dotnet CLI ASP.NET samples
-    https://github.com/caslan/cli-samples
-    Review and see if they work???
-    Would this be interesting to show???
 
   Getting debugging working in VS Code
     https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/10/experimental-net-core-debugging-in-vs-code/
