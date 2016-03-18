@@ -1,43 +1,25 @@
 
 # TODO
 
-1. Reset the DryRun and Live images
-
-1. Import the new code snippets
+1. Run `brew update` (to ensure that the majority of the formulae are updated)
+1. Update VS Code
+1. Update Yeoman templates `npm update generator-aspnet`
 1. Remove the old GitHub repo
 1. Clone the new GitHub repo
-1. Install POSTMAN in the Live image
+1. Import the new code snippets
+1. Adjust screen resolution
+1. Ensure that the DryRun image is available in case internet access is not working
+1. Reset the Live image
 
-1. Install POSTMAN in the Sandbox image
- 1. Also update the environment setup slide in the Keynote presentation
+## Project Setup
 
-## ASP.NET Updates
+1. Create project repo for the presentation
+1. Clone project
+1. Create Azure web app
 
-Blog post announcing the release of Beta8
-	http://blogs.msdn.com/b/webdev/archive/2015/10/15/announcing-availability-of-asp-net-5-beta8.aspx
-
-Beta8
-
-* New hosting model
-* Only Kestrel is available now
-* IIS will be used as a reserve proxy
-* VS tooling improvements
-
-RC
-
-* Logging improvements
-* Ability to dial up or down logging per ASP.NET section
-* Pretty printed console logging (i.e. green, yellow, red)
-* More Kestrel perf improvements
-
-How to find out about changes
-
-* Announcements repo on GitHub is a list of all of the changes
-* Release notes
-
-Path to RTM
-
-* The goal is that an app that runs on RC will run on RTM without any (or few) changes
+1. Test deploying to Azure
+1. Also update the environment setup slide in the Keynote presentation
+ 1. Add POSTMAN
 
 ## Questions
 
@@ -58,6 +40,6 @@ Path to RTM
 1. Clone GitHub repo
 1. Have Safari open to my repo
 1. Have private Chrome tab open to Azure
-1. Make sure that MiFi is setup
+1. Make sure that WiFi is setup
 1. Test WiFi speeds
 1. Disable power save features on the Surface
