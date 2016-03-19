@@ -1,15 +1,9 @@
 
 
-TypeScript Presentation
-  Practice demos
-
-
-
-
 Decorators Presentation
 
   Tighten up presentation
-    Given general overview
+    Give general overview
     Then show what decorators look like
       Use decorator library???
     Then build out a simple `log` or `readonly` decorator
@@ -46,3 +40,8 @@ ASP.NET Core Presentation
 
   RC1 to RC2 comparison
   	http://stackoverflow.com/questions/35527151/can-i-build-asp-net-core-web-application-using-microsoft-dotnet-cli
+
+
+
+TypeScript Presentation
+  Practice demos

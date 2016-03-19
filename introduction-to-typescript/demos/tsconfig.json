@@ -17,6 +17,7 @@
         "!./typings/main/**/*.d.ts"
     ],
     "files": [
+        "./arrow-functions.ts",
         "./async-await.ts",
         "./computed-properties.ts",
         "./decorators-log.ts",
