@@ -1,28 +1,10 @@
 
 
-
-
-ASP.NET Core Presentation
-  Practice demos
-    Practice adding MVC to an empty application
-
-TypeScript Presentation
-  Practice demos
-
-Decorators Presentation
-  Practice demos
-
 Prep
   Copy repo to my desktop
-  Setup WiFi
-  Setup tablet
+  DONE Setup WiFi
+  DONE Setup tablet
   Boot into Live partition and prep for talk
-
-
-
-
-
-
 
 
 ASP.NET Core Presentation
