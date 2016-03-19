@@ -1,11 +1,19 @@
 
 # Using TypeScript Decorators with Angular
 
+## Demos
+
+### Decorator Library Demo
+
+Great general library of decorators.
+
+[https://github.com/jayphelps/core-decorators.js](https://github.com/jayphelps/core-decorators.js)
+
 ## Decorators
 
 * C#, Java, Python, and more all have support for declarative programming
-* C# just supports associating metadata with class and class members
-* JavaScript decorators not only provide metadata but also allow you to modify classes and properties at design time
+* C# supports associating metadata with class and class members
+* TypeScript decorators not only provide metadata but also allow you to modify classes and properties at design time
 
 ## AtScript Annotations
 
@@ -81,7 +89,11 @@ Do TypeScript decorators work in all browsers?
 
 ## Demos
 
-### Decorator Demo
+### Decorator Demo: `@log`
+
+* Walk through the app
+ * Explain what the `main` code is doing
+* Uncomment each decorator and show what the code is doing
 
 * Class Decorator
  * Accepts one argument: `target` (constructor function)
@@ -96,31 +108,16 @@ Do TypeScript decorators work in all browsers?
  * Accepts three arguments: `target` (prototype), `name` (method name), and `index` (index of the parameter being decorated)
  * Returns a property descriptor that is used to update the original property definition
 
-### Code Analysis Demo
+### Decorator Demo: `@readonly`
 
-* Walk through the generated code
+* Walk through the app
+ * Explain what the `main` code is doing
 
-#### Metadata Demo
-
-You need a polyfill in order to access the metadata that TypeScript emits.
-
-```
-npm install reflect-metadata
-```
-
-Then you can get the metadata like this:
-
-```
-console.log('Type: %s', Reflect.getMetadata('design:type', v, k));
-console.log('Param Types: %s', Reflect.getMetadata('design:paramtypes', v, k));
-console.log('Return Type: %s', Reflect.getMetadata('design:returntype', v, k));
-```
-
-### JavaScript Object Demo
+#### JavaScript Object Demo
 
 * Show how the `Object.getOwnPropertyDescriptor` and `Object.defineProperty` work
 
-#### Object.getOwnPropertyDescriptor
+##### Object.getOwnPropertyDescriptor
 
 Used to get a property descriptor.
 
@@ -140,21 +137,22 @@ Descriptors have the following keys:
 * `get` (accessor descriptor) - A function which serves as a getter for the property, or undefined if there is no getter. The function return will be used as the value of property. Defaults to undefined.
 * `set` (accessor descriptor) - A function which serves as a setter for the property, or undefined if there is no setter. The function will receive as only argument the new value being assigned to the property. Defaults to undefined.
 
-#### Object.defineProperty
+##### Object.defineProperty
 
 Used to create object properties.
 
-##### Parameters
+###### Parameters
 
 * obj - The object on which to define the property.
 * prop - The name of the property to be defined or modified.
 * descriptor - The descriptor for the property being defined or modified.
 
-### Decorator Library Demo
 
-Great general library of decorators.
 
-[https://github.com/jayphelps/core-decorators.js](https://github.com/jayphelps/core-decorators.js)
+
+
+
+
 
 ### Angular 2 Demo
 

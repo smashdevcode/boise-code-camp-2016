@@ -1,21 +1,21 @@
 
 
+
 Decorators Presentation
 
   Tighten up presentation
-    Give general overview
-    Then show what decorators look like
-      Use decorator library???
-    Then build out a simple `log` or `readonly` decorator
-    Maybe skip walking through the generated code
-      This felt like it slowed the presentation down too much and was a distraction because of it
+
     Finish up by showing simple Angular 2 app
 
+
   Practice demos
+
     Write up notes for simple Angular 2 demo
       Write the code out in real time???
       Or as close as possible as real time???
       Have code snippets on hand and the completed app for backup
+
+
 
 
 
@@ -42,6 +42,13 @@ ASP.NET Core Presentation
   	http://stackoverflow.com/questions/35527151/can-i-build-asp-net-core-web-application-using-microsoft-dotnet-cli
 
 
+Prep
+  Copy repo to my desktop
+  Setup WiFi
+  Setup tablet
 
 TypeScript Presentation
+  Practice demos
+
+Decorators Presentation
   Practice demos
