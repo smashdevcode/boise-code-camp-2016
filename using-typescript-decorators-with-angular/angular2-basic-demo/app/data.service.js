@@ -22,7 +22,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 function DataService() {
                 }
                 DataService.prototype.getContent = function () {
-                    return 'Hello from the data service updated!';
+                    return 'Hello from the data service!';
                 };
                 DataService = __decorate([
                     core_1.Injectable(), 
