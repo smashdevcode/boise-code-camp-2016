@@ -1,13 +1,23 @@
 <html>
     <head>
-        <title>TypeScript System Modules</title>
-        <script src="lib/system.js"></script>
+        <title>TypeScript ES6 Modules</title>
+
+        <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
         <script>
-            System.defaultJSExtensions = true;
-            System.import('scripts/main');
+            System.config({
+                packages: {
+                    app: {
+                        format: 'register',
+                        defaultExtension: 'js'
+                    }
+                }
+            });
+            System.import('app/main')
+                .then(null, console.error.bind(console));
         </script>
     </head>
     <body>
-        <h1>TypeScript System Modules</h1>
+        <h1>TypeScript ES6 Modules</h1>
     </body>
 </html>

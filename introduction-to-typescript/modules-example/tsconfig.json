@@ -17,6 +17,9 @@
         "!./typings/main/**/*.d.ts"
     ],
     "files": [
+        "./app/main.ts",
+        "./app/my-class.ts",
+        "./app/my-module.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
