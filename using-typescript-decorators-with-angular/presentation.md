@@ -147,14 +147,15 @@ Used to create object properties.
 * prop - The name of the property to be defined or modified.
 * descriptor - The descriptor for the property being defined or modified.
 
+### Angular 2 Demo "Basic"
 
+#### angular2/core
 
+* Component - Specifies when a component is instantiated, and which properties and hostListeners it binds to
+* Injectable - Marks a class as available to Injector for creation
+* View - Specifies the HTML template to use, and lists the directives that are active within the template
 
-
-
-
-
-### Angular 2 Demo
+### Angular 2 Demo "Civil War"
 
 #### angular2/core
 

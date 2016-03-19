@@ -4,16 +4,12 @@
 Decorators Presentation
 
   Tighten up presentation
-
     Finish up by showing simple Angular 2 app
 
-
-  Practice demos
-
-    Write up notes for simple Angular 2 demo
-      Write the code out in real time???
-      Or as close as possible as real time???
-      Have code snippets on hand and the completed app for backup
+  Write up notes for simple Angular 2 demo
+    Write the code out in real time???
+    Or as close as possible as real time???
+    Have code snippets on hand and the completed app for backup
 
 
 
