@@ -17,9 +17,7 @@
         "!./typings/main/**/*.d.ts"
     ],
     "files": [
-        "./main.ts",
-        "./typings/browser.d.ts",
-        "./typings/browser/ambient/lodash/index.d.ts"
+        "./main.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

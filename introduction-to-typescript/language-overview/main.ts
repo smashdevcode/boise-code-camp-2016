@@ -51,8 +51,8 @@
 
 // Type Definition Files
 // 1) Show how to use d.ts files to make TS aware of libraries
-// 2) `typings search lodash`
-// 3) `typings install lodash --save`
+// 2) `typings search lodash --ambient`
+// 3) `typings install lodash --ambient --save`
 
 // var maxNumber = _.max([1, 2, 3]);
 // console.log(maxNumber);
