@@ -233,6 +233,86 @@ becomes this with Tag Helpers:
 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
 ```
 
+## Adding MVC to a Project
+
+1. Add new dependency `"Microsoft.AspNet.Mvc": "6.0.0-rc1-final"`
+
+2. Run `dnu restore`
+
+3. Update `Startup.cs` file
+
+* Add `using Microsoft.AspNet.Mvc;`
+* Add `services.AddMvc();`
+* Add `app.UseMvcWithDefaultRoute();`
+* Comment out `app.Run()` method call
+
+4. Add `HomeController.cs` file to the `Controllers` folder.
+
+```
+using Microsoft.AspNet.Mvc;
+
+public class HomeController : Controller
+{
+    public string Index()
+    {
+        return "Hello from Home controller!";
+    }   
+}
+```
+
+5. Run the app
+
+6. Update the controller to return call to `View()`;
+
+7. Add a view
+
+8. Add a `DataService.cs` file to the `Services` folder.
+
+```
+public class DataService
+{
+    public string GetContent()
+    {
+        return "Hello from the data service!";
+    }
+}
+```
+
+9. Update the `Startup.cs` file
+
+```
+services.AddScoped(typeof(DataService), typeof(DataService));
+```
+
+10. Update the `HomeController.cs` file.
+
+```
+using Microsoft.AspNet.Mvc;
+
+public class HomeController : Controller
+{
+    private DataService _dataService;
+
+    public HomeController(DataService dataService)
+    {
+        _dataService = dataService;
+    }
+
+    public IActionResult Index()
+    {
+        ViewBag.Content = _dataService.GetContent();
+        return View();
+    }   
+}
+```
+
+11. Update the view.
+
+```
+<h1>Hello from the view!</h1>
+@ViewBag.Content
+```
+
 ## Tag Helpers Form Example
 
 * Add `Models` folder
