@@ -1,15 +1,12 @@
 
 
+
+
 Decorators
   Demo 1 - @log (for method)
   Demo 2 - @readonly (for property)
   Demo 3 - Angular 2
   Demo 4 - AngularJS 1
-
-
-
-
-Stub out decorator demos
 
 Add slides explaining the demos that I'm going to show
 
@@ -18,11 +15,9 @@ Add slides explaining the demos that I'm going to show
 
 
 
-Prep
-  Copy repo to my desktop
-  Setup WiFi
-  Setup tablet
-  Boot into Live partition and prep for talk
+ASP.NET Core Presentation
+  Practice demos
+    Practice adding MVC to an empty application
 
 TypeScript Presentation
   Practice demos
@@ -30,11 +25,20 @@ TypeScript Presentation
 Decorators Presentation
   Practice demos
 
+Prep
+  Copy repo to my desktop
+  Setup WiFi
+  Setup tablet
+  Boot into Live partition and prep for talk
+
+
+
+
+
+
+
+
 ASP.NET Core Presentation
-  Practice demos
-    Practice adding MVC to an empty application
-
-
 
   dotnet CLI ASP.NET samples
     https://github.com/caslan/cli-samples
