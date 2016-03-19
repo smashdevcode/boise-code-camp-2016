@@ -3,12 +3,15 @@ System.register([], function(exports_1, context_1) {
     var __moduleName = context_1 && context_1.id;
     function readonly(target, propertyKey) {
         var _val = target[propertyKey], isSet = false;
+        console.log(target[propertyKey]);
+        console.log(_val);
         var getter = function () {
             console.log("Get: " + propertyKey + " => " + _val);
             return _val;
         };
         var setter = function (newVal) {
             if (!isSet) {
+                console.log("Set: " + propertyKey + " => " + newVal);
                 _val = newVal;
                 isSet = true;
             }
