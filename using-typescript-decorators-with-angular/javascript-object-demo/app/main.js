@@ -1,4 +1,5 @@
-(function () {
+var JavaScriptObjectDemo;
+(function (JavaScriptObjectDemo) {
     function displayObjectProperties(obj) {
         console.group('Object Properties:');
         for (var prop in obj) {
@@ -8,4 +9,4 @@
         }
         console.groupEnd();
     }
-})();
+})(JavaScriptObjectDemo || (JavaScriptObjectDemo = {}));
