@@ -1,7 +1,7 @@
 {
     "version": "1.7.5",
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "declaration": false,
         "noImplicitAny": false,
         "removeComments": true,
@@ -17,6 +17,16 @@
         "!./typings/main/**/*.d.ts"
     ],
     "files": [
+        "./async-await.ts",
+        "./computed-properties.ts",
+        "./decorators-log.ts",
+        "./decorators.ts",
+        "./destructuring.ts",
+        "./for-of.ts",
+        "./let-const.ts",
+        "./template-strings-with-tags.ts",
+        "./template-strings.ts",
+        "./union-types-type-guards.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

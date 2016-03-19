@@ -21,11 +21,14 @@
 
 ### 9) tsconfig.json
 
-### 10) ES6/ES7 Features
+### 10) ES6/ES7 Features (and more)
 
-* Template strings
+* Union Types & Type Guards
+* Template Strings
 * let & const
 * for..of
 * Destructuring
-* ES6 Modules
 * async/await
+* Computed Properties
+* Decorators
+* ES6 Modules

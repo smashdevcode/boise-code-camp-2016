@@ -13,7 +13,7 @@ namespace Demos.ComputedProperties {
     //     ['Prop' + ++i]: 'Hello',
     //     ['Prop' + ++i]: 'World!'
     // };
-
+    //
     // for (var prop in myObject) {
     //     console.log(prop);
     //     console.log(myObject[prop]);
